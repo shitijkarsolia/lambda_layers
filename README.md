@@ -17,9 +17,12 @@
                 └── python3.8
                     └── site-packages
 ```
-#### 4. Install the requred package using pip into the folder
+#### 5. Install the requred package using pip into the folder
 `pip install xyz -t lambda_layers/python/lib/python3.8/site-packages/.`
-#### 4. Change directory and zip
+#### 6. Change directory and zip
 `cd lambda_layers`\
 `zip -r xyz.zip *`
+#### 7. Upload Zip in the Lambda Console
+
+
 
